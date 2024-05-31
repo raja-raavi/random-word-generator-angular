@@ -1,0 +1,14 @@
+<div class="alignment">
+
+    <h1>Random Word Generator</h1>
+
+    <h2><p id="wordLimit">The world limit is : {{limit}}</p></h2>
+
+    <label id="label">Choose a Range : </label>
+    <input type="range" min="0" max="27" [(ngModel)] = "limit" /><br><br>
+
+    <button (click)="buttonclicked()">Generate Words</button>
+
+    <h4><p id="para">{{para}}</p></h4>   
+
+</div>
